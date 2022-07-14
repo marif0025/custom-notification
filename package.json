@@ -1,0 +1,35 @@
+{
+    "private": true,
+    "main": "main.js",
+    "scripts": {
+        "build": "webpack --env mode=production",
+        "start": "webpack serve --env mode=development"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@types/node": "^17.0.21",
+        "@types/webpack": "^5.28.0",
+        "@types/webpack-env": "^1.16.3",
+        "autoprefixer": "^10.4.2",
+        "css-loader": "^6.6.0",
+        "cssnano": "^5.0.17",
+        "eslint": "^8.10.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.25.4",
+        "mini-css-extract-plugin": "^2.5.3",
+        "postcss": "^8.4.7",
+        "postcss-loader": "^6.2.1",
+        "sass": "^1.49.9",
+        "sass-loader": "^12.6.0",
+        "stylelint": "^14.5.3",
+        "stylelint-config-sass-guidelines": "^9.0.1",
+        "stylelint-webpack-plugin": "^3.1.1",
+        "svg-sprite-loader": "^6.0.11",
+        "svgo-loader": "^3.0.0",
+        "ts-loader": "^9.2.7",
+        "typescript": "^4.6.2",
+        "webpack": "^5.69.1",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.7.4"
+    }
+}

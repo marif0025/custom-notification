@@ -1,0 +1,4 @@
+.vscode
+node_modules
+.env
+public/js/main.js.LICENSE.txt
